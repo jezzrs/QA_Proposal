@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AskForm</title>
+  </head>
+  <body>
+    <header class="head-container" id="head-container">
+      <h2>AskForm</h2>
+    </header>
+  </body>
+</html>
+<div class="main-container" id="main-container">
+  <div class="ask-container" id="ask-container">
+    <textarea
+      class="question-text-area"
+      id="question-text-area"
+      maxlength="200"
+    >
+Type your question...</textarea
+    >
+    <br /><input
+      class="name-field"
+      id="name-field"
+      placeholder="Your name (Optional)"
+    />
+  </div>
+  <input type="submit" class="submit-button" id="submit-button" />
+
+  <div class="questions-made" id="questions-made">
+    <h3>Questions</h3>
+    <textarea
+      class="questions-made-textarea"
+      id="questions-made-textarea"
+    ></textarea>
+    <button class="delete-button" id="delete-button">Delete All</button>
+  </div>
+</div>
